@@ -22,6 +22,7 @@ typedef int32_t cell;
 
 #define SYSVARSIZE 8 /* The size of the system var section */
 
+/* TODO - do we need to keep these separate ? */
 /* User Vars offsets */
 #define TIB 0 /* Start of the input buffer - TIB */
 #define TIB_LEN 1 /* Length of TIB - TIB# */
